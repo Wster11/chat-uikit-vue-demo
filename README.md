@@ -107,7 +107,7 @@ export default defineConfig({
 
 2. 创建 react_app/chat.jsx 文件，导入 UIKit，使用环信 IM 的 appKey 和用户信息初始化 UIKit
    
-   <img src="././WechatIMG517.jpg" alt="react_app" width="300px">
+   <img src="./WechatIMG517.jpg" alt="react_app" width="300px">
 
 代码如下
 ```jsx
@@ -227,14 +227,13 @@ const switchTheme = () => {
 </style>
 
 ```
+删除 App.vue 文件 template 中的无关代码，仅保留RouterView，当访问 http://localhost:5173 时，展示应该是这样的：
 
-当访问 http://localhost:5173 时，它应该是这样的：
-
-<img src="././WechatIMG518.jpg" alt="uikit" width="500px">
+<img src="./WechatIMG518.jpg" alt="uikit" width="500px">
 
 点击切换主题
 
-<img src="././WechatIMG519.jpg" alt="uikit" width="500px">
+<img src="./WechatIMG519.jpg" alt="uikit" width="500px">
 
 # 相关参考
 - [示例项目源码]()
